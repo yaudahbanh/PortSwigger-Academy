@@ -36,4 +36,5 @@ def exp():
         print("Lab solved!")
 
 if __name__ == "__main__":
+    union_select()
     exp()
