@@ -35,7 +35,7 @@ def exp():
     if "Congratulations" in s.text:
         print("Lab solved!")
     else:
-        print("You can use this payload for manual: ' UNION SELECT BANNER, NULL FROM v$version--")
+        print(f"You can use this payload for manual: {payload}")
         print("I don't know why it's not working. Even though i already using request sessions.")
 
 if __name__ == "__main__":
